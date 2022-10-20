@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  /* margin: 0 auto; */
+  background-color: bisque;
+  /* height: 10vh; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo:hover{
+  transform: scale(1.1);
+}
+
+.header img {
+  height: 150px;
+  padding: 20px;
+}
+
+.header a:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.header__ul--active{
+  font-weight: 900;
+}
+
+.header ul li {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  padding: 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+}
+
+.main-index {
+  background-color: darksalmon;
+  height: 80vh;
+}
+
+.main-index h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: bisque;
+  height: 10vh;
+  display: flex; 
+  text-align: center;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer li {
+  font-size: 15px;
+  padding: 10px;
+  list-style: none;
+}
+
+.footer li a {
+  text-decoration: none;
+}
+
+/* .footer ul a:hover{
+  color: aliceblue;
+} */
+
+.footer ul a:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.fa-facebook{
+  font-size: 40px;
+  /* color: dodgerblue; */
+}
+
+.fa-twitter{
+  font-size: 40px;
+  /* color: deepskyblue; */
+}
+
+.fa-whatsapp{
+  font-size: 40px;
+  /* color: green; */
+}
+
+.fa-instagram{
+  font-size: 40px;
+  /* color: black; */
+}
